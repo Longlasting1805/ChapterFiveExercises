@@ -2,7 +2,7 @@ package Chapter5Exercises;
 
 import java.util.Scanner;
 
-public class factorial {
+public class Factorial {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the number");

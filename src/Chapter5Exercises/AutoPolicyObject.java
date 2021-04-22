@@ -12,7 +12,7 @@ public class AutoPolicyObject {
         AutoPolicy policy5 = new AutoPolicy(5555555, "BMW", "NJ");
         AutoPolicy policy6 = new AutoPolicy(6666666, "Porche", "NY");
         AutoPolicy policy7 = new AutoPolicy(7777777, "Bently", "PA");
-        AutoPolicy policy8 = new AutoPolicy(6666666, "Lamboghini", "VT");
+        AutoPolicy policy8 = new AutoPolicy(8888888, "Lamboghini", "VT");
 
         PolicyInNoFaultState(policy1);
         PolicyInNoFaultState(policy2);

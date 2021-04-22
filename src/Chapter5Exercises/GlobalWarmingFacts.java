@@ -20,20 +20,13 @@ public class GlobalWarmingFacts {
             String chooseAnswer1 = read.readLine();
             int answer1 = 4;
             String answer1string = "" + answer1;
-            String Question1answers;
-            switch (answer1){
-                case 1: Question1answers = "A.  Is colorless, odourless, non-toxic,and non-combustible.";
-                break;
-                case 2: Question1answers = "B.  Is produced when carbon sources are burned (i.e oil,coal,gas...";
-                break;
-                case 3: Question1answers =  "C.  Atmospheric concentration has increased by over 34% since 1960.";
-                break;
-                case 4: Question1answers = "D.   All of the above";
-                break;
-
-                default:Question1answers = "No response selected";
-                break;
-            }
+            String Question1answers = switch (answer1) {
+                case 1 -> "A.  Is colorless, odourless, non-toxic,and non-combustible.";
+                case 2 -> "B.  Is produced when carbon sources are burned (i.e oil,coal,gas...";
+                case 3 -> "C.  Atmospheric concentration has increased by over 34% since 1960.";
+                case 4 -> "D.   All of the above";
+                default -> "No response selected";
+            };
 
 
             System.out.println("2.  Greenhouse gases are; \n"+
@@ -44,19 +37,13 @@ public class GlobalWarmingFacts {
             String chooseAnswer2 = read.readLine();
             int answer2 = 2;
             String answer2string = "" + answer2;
-            String Question2Answers;
-            switch (answer2){
-                case 1: Question2Answers = "A.  A myth created by popular media.";
-                break;
-                case 2: Question2Answers = "B.  Keep heat close to earth sustaining life, however is rapidly increasing heat levels, which is detrimental to the environment. ";
-                break;
-                case 3: Question2Answers = "C. Green colored gases that poisoned and kill plant life. ";
-                break;
-                case 4: Question2Answers = "D  Nothing to be concerned about, continue buying and consuming products that release CO2 emissions...Nothing to see here. ";
-                break;
-                default:Question2Answers = "No response selected";
-                break;
-            }
+            String Question2Answers = switch (answer2) {
+                case 1 -> "A.  A myth created by popular media.";
+                case 2 -> "B.  Keep heat close to earth sustaining life, however is rapidly increasing heat levels, which is detrimental to the environment. ";
+                case 3 -> "C. Green colored gases that poisoned and kill plant life. ";
+                case 4 -> "D  Nothing to be concerned about, continue buying and consuming products that release CO2 emissions...Nothing to see here. ";
+                default -> "No response selected";
+            };
 
 
             System.out.println("3. Smart cars help combat global warming by");
@@ -67,20 +54,13 @@ public class GlobalWarmingFacts {
             String chooseAnswer3 = read.readLine();
             int answer3 = 1;
             String answer3string = "" + answer3;
-            String Question3Answers;
-            switch (answer3){
-                case 1: Question3Answers = "A Reducing CO2 emissions slowing the rapid warming of the planet atmosphere";
-                break;
-                case 2: Question3Answers = "B. Consuming more energy thereby eliminating oil supplies ";
-                break;
-                case 3: Question3Answers = "C. Require fewer resources to manufacture. ";
-                break;
-                case 4: Question3Answers = "D. None of the above ";
-                break;
-                default:Question3Answers = "No response selected ";
-                break;
-            }
-
+            String Question3Answers = switch (answer3) {
+                case 1 -> "A Reducing CO2 emissions slowing the rapid warming of the planet atmosphere";
+                case 2 -> "B. Consuming more energy thereby eliminating oil supplies ";
+                case 3 -> "C. Require fewer resources to manufacture. ";
+                case 4 -> "D. None of the above ";
+                default -> "No response selected ";
+            };
 
 
             System.out.println("4. There is more carbon dioxide in the air today than ");
@@ -91,19 +71,13 @@ public class GlobalWarmingFacts {
             String chooseAnswer4 = read.readLine();
             int answer4 = 2;
             String answer4string = "" + answer4;
-            String Question4Answers;
-            switch (answer4){
-                case 1: Question4Answers = "A. There ever has been before ";
-                break;
-                case 2: Question4Answers = "B. Than at any other time in the last 800,00 years. ";
-                break;
-                case 3: Question4Answers = "C, Than there will be in 20 years. ";
-                break;
-                case 4: Question4Answers ="D. Both A and B. ";
-                break;
-                default: Question4Answers = "No response selected";
-                break;
-            }
+            String Question4Answers = switch (answer4) {
+                case 1 -> "A. There ever has been before ";
+                case 2 -> "B. Than at any other time in the last 800,00 years. ";
+                case 3 -> "C, Than there will be in 20 years. ";
+                case 4 -> "D. Both A and B. ";
+                default -> "No response selected";
+            };
 
 
             System.out.println("5. In the last century sea levels have risen how many inches? ");
@@ -114,19 +88,13 @@ public class GlobalWarmingFacts {
             String chooseAnswer5 = read.readLine();
             int answer5 = 3;
             String answer5string = "" + answer5;
-            String Question5Answers;
-            switch (answer5){
-                case 1: Question5Answers = "A. 5 Inches";
-                break;
-                case 2: Question5Answers = "B. 0 Inches";
-                break;
-                case 3: Question5Answers = "C 7 Inches";
-                break;
-                case 4: Question5Answers = "D. 22 Inches";
-                break;
-                default: Question5Answers = "No response selected";
-                break;
-            }
+            String Question5Answers = switch (answer5) {
+                case 1 -> "A. 5 Inches";
+                case 2 -> "B. 0 Inches";
+                case 3 -> "C 7 Inches";
+                case 4 -> "D. 22 Inches";
+                default -> "No response selected";
+            };
             int i = 5;
             String str = "" + i;
             int count = 0;
